@@ -2,9 +2,9 @@ package com.example.photoapllication;
 
 public class Photo {
     private int id;
-    private String source_photo;
+    private int source_photo;
 
-    public Photo(int id, String source_photo, String title_photo, String description_photo) {
+    public Photo(int id, int source_photo, String title_photo, String description_photo) {
         this.id = id;
         this.source_photo = source_photo;
         this.title_photo = title_photo;
@@ -22,11 +22,11 @@ public class Photo {
         this.id = id;
     }
 
-    public String getSource_photo() {
+    public int getSource_photo() {
         return source_photo;
     }
 
-    public void setSource_photo(String source_photo) {
+    public void setSource_photo(int source_photo) {
         this.source_photo = source_photo;
     }
 
